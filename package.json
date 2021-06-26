@@ -7,15 +7,28 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "frontend",
     "react",
+    "react-component",
     "modal",
-    "function"
+    "function",
+    "function-programming",
+    "ui"
   ],
   "author": "boatzhang <andyboat1009@gmail.com> (https://github.com/AndyBoat)",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2"
   },
-  "npmName": "func-modal",
-  "sideEffects": false
+  "npmName": "func-modal.js",
+  "sideEffects": false,
+  "homepage": "https://github.com/AndyBoat/functionalize",
+  "bug": "https://github.com/AndyBoat/functionalize/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyBoat/functionalize"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
