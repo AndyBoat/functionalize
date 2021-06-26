@@ -20,7 +20,7 @@
 ## Installation
 
 ```shell
-npm install --save func-modal
+npm install --save functionalize
 ```
 
 
