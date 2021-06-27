@@ -1,6 +1,6 @@
 {
   "name": "functionalize",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "use modal component just like function",
   "main": "src/index.js",
   "scripts": {
@@ -18,7 +18,8 @@
   "author": "boatzhang <andyboat1009@gmail.com> (https://github.com/AndyBoat)",
   "license": "MIT",
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "npmName": "func-modal.js",
   "sideEffects": false,
