@@ -1,6 +1,6 @@
 # func-modal.js: Functionalize Your Modal
 
-##  Functionalize Your Modal
+##  Functionalize Your Modal [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `func-modal.js` try to meet one and only one goal:
 

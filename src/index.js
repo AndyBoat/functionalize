@@ -1,13 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 /**
  * @template T
  * @typedef {[string]|[string,(t:T)=>Promise<boolean>?]} Success
- *
  */
 
 /**
- *
  * @typedef {[string]} Close
  */
 
@@ -26,9 +24,9 @@ const functionalize = (ModalLikeComponent) => {
    * @template T
    * @param {{success:Success<T>;close:Close;props:{}}} prop
    */
-  const resFn = ({ success, close, props }) => {
+  const resFn = ({success, close, props}) => {
     return new Promise((resolve) => {
-      const div = document.createElement("div");
+      const div = document.createElement('div');
       document.body.appendChild(div);
       const onSuccess = async (t) => {
         const manuallyHandleFn = success[1];
@@ -46,7 +44,7 @@ const functionalize = (ModalLikeComponent) => {
         onClose();
       };
 
-      const onClose = (...args) => {
+      const onClose = () => {
         const unmountResult = ReactDOM.unmountComponentAtNode(div);
         if (unmountResult && div.parentNode) {
           div.parentNode.removeChild(div);
@@ -63,7 +61,6 @@ const functionalize = (ModalLikeComponent) => {
       function render() {
         /**
          * https://github.com/ant-design/ant-design/issues/23623
-         *
          * Sync render blocks React event. Let's make this async.
          */
         setTimeout(() => {
