@@ -17,6 +17,15 @@
 
 
 
+## Online Sample
+codesandbox: [functionalize-with-modal](https://codesandbox.io/s/functionalize-with-modal-sample-ybjcy?file=/src/App.js)
+
+![image.png](https://i.loli.net/2021/06/29/2XRYsQNPC1Wh9xV.png)
+
+
+
+
+
 ## Installation
 
 ```shell
@@ -383,5 +392,4 @@ function Modal({ onSubmit, onClose }) {
  Again, `func-modal`  will not take care of loading state , and its recommand to maintain it wihtin the modal iteself. 
 
 And the Component that use the Modal should not care the `loading` state either.
-
 
